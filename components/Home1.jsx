@@ -1,6 +1,14 @@
 import React from "react";
 
 function Home1() {
+  const benefits = [
+    "Try to challenge yourself and enhance your skills by building real websites frontend from which you can learn new things",
+    "There are a lot of frontend developers. You must stand out in order to land your dream opportunity or get a good job. We’ll help you develop an impressive portfolio and advance your frontend development skills with unique & challenging inspirations",
+    "Designers often don’t take into account the browser’s limitations or leave you without designs for some things. Working on real inspirations can help you discover new perspectives and develop understanding of how the frontend is made responsive according to different design ideas in different resolutions.",
+    "The difference between an okayish developer and a great developer lies in the details. Discover the secrets of polished apps/websites.",
+    "The difference between an okayish developer and a great developer lies in the details. Discover the secrets of polished apps websites.",
+    "The difference between an okayish developer and a great developer lies in the details. Discover the secrets of polished apps websites.",
+  ];
   return (
     <div className="w-full h-full">
       <div className="w-full flex flex-col items-center justify-center">
@@ -70,13 +78,61 @@ function Home1() {
         </div>
       </div>
       <div className="w-full h-full text-center  flex justify-center">
-      <p className="w-[50%] pt-[80px] italic pb-[100px] font-Archivo font-thin text-[24px] leading-[40px]">
-      If you&apos;ve got one of these problems it&apos;s time to fix the errors
-you&apos;re making and land the frontend role you always wanted.
-      </p>
+        <p className="w-[50%] pt-[80px] italic pb-[100px] font-Archivo  text-[24px] leading-[40px]">
+          If you&apos;ve got one of these problems it&apos;s time to fix the
+          errors you&apos;re making and land the frontend role you always
+          wanted.
+        </p>
       </div>
-      <div className="border-2 bg-white border-black h-full w-full">
-        <p className="pt-[100px] font-Archivo  font-[400] ">Here are some ways you can benefit from using our platform:</p>
+      <div className="border-2 bg-white border-black h-full w-full pb-[60px">
+        <p className="pt-[100px] font-Archivo text-[26px] text-center pb-[60px] font-[500] ">
+          Here are some ways you can benefit from using our platform:
+        </p>
+        <div className="w-full flex justify-center items-center">
+          <div className="container px-16  pb-[30px]">
+            <div className="grid grid-cols-2">
+              {benefits.map((benefit, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="flex justify-center items-center mb-16"
+                  >
+                    <div className="w-[500px] h-[250px] border-2 border-black bg-white flex justify-center items-center">
+                      <div className="px-[35px]">
+                        <p className="text-start font-light font-Archivo text-[18px] leading-[26px]">
+                          {benefit}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 className="pt-[85px] font-DM text-[72px] pb-[112px] text-center text-[#645E56]">
+        Get access to unique frontend challenges
+      </h2>
+      <div className=" w-full h-[540px] border-2 border-black bg-white flex items-center justify-center">
+        <div className="h-[60%] w-[45%]  flex justify-center flex-col">
+          <p className="text-[20px] text-center font-Archivo leading-9 ">
+            Build something amazing that makes you stand out and showcase your
+            skills by building inspirations that help you understand design,
+            master new tools and methods alongside discovering the best
+            development practices and feel confident in both small & large-scale
+            projects.
+          </p>
+          <p className="py-[36px] font-Archivo text-[20px] text-center">
+            Ready to supercharge your frontend development skills?
+          </p>
+          <div className="w-full flex justify-center">
+            <button className="w-[120px] h-[45px] bg-white border-2 border-black text-black font-Archivo text-[16px] hover:bg-black hover:text-white">
+              Get Started
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
