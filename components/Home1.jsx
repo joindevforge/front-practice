@@ -90,7 +90,7 @@ function Home1() {
         </p>
         <div className="w-full flex justify-center items-center">
           <div className="container px-16  pb-[30px]">
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2">
               {benefits.map((benefit, index) => {
                 return (
                   <div
@@ -99,7 +99,7 @@ function Home1() {
                   >
                     <div className="w-[500px] h-[250px] border-2 border-black bg-white flex justify-center items-center">
                       <div className="px-[35px]">
-                        <p className="text-start font-light font-Archivo text-[18px] leading-[26px]">
+                        <p className="text-start font-light font-Archivo text-[18px] leading-[28px]">
                           {benefit}
                         </p>
                       </div>
