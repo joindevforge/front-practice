@@ -21,7 +21,7 @@ function Home1() {
           from real companies and get rewarded in crypto.
         </p>
       </div>
-      <div className="mt-[140px] h-[488px] bg-white border-y-4 border-black flex items-center justify-center">
+      <div className="mt-[140px] h-[488px] bg-white border-y-2 border-black flex items-center justify-center">
         <div className="h-[272px] w-full flex justify-between items-center flex-col ">
           <p className="text-center font-DM font-[400] tracking-[-1%] leading-[50px]  text-4xl">
             Say goodbye to capstone projects..
