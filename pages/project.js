@@ -79,7 +79,7 @@ function project() {
               <p className="text-[16px] font-Archivo font-[600] px-8 mt-3">
                 Frontend Masters offers a 100% free{" "}
                 <Link href="#" className="underline">
-                  "Complete Intro to Web Development" course.
+                &ldquo;Complete Intro to Web Development&ldquo; course.
                 </Link>
               </p>
               <div className="w-full flex justify-center mt-2">
