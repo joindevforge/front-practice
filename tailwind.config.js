@@ -10,6 +10,9 @@ module.exports = {
      fontFamily:{
       'Archivo':['Archivo', 'sans-serif'],
       'DM':['DM Serif Display', 'serif']
+     },
+     listStyleType: {
+        'circle':'circle'
      }
     },
   },
