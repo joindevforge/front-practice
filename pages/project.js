@@ -78,7 +78,7 @@ function project() {
               </p>
               <p className="text-[16px] font-Archivo font-[600] px-8 mt-3">
                 Frontend Masters offers a 100% free{" "}
-                <Link href="#" className="underline">
+                <Link href="#" className="underline hover:text-blue-500">
                 &ldquo;Complete Intro to Web Development&ldquo; course.
                 </Link>
               </p>
