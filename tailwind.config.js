@@ -9,7 +9,8 @@ module.exports = {
     extend: {
      fontFamily:{
       'Archivo':['Archivo', 'sans-serif'],
-      'DM':['DM Serif Display', 'serif']
+      'DM':['DM Serif Display', 'serif'],
+      'Hanken':['Hanken Grotesk', 'sans-serif']
      },
      listStyleType: {
         'circle':'circle'

@@ -32,12 +32,12 @@ function Header() {
   };
   return (
     <div className='w-full h-[63px] top-0  fixed z-50 bg-white flex justify-center border-b-2 border-black'>
-    <div className='w-[83%] h-full  flex justify-between items-center'>
+    <div className='w-[83%] h-full block  lg:flex justify-between items-center'>
       <Link href="/" className='text-[30px] font-DM'>Frontend Practice</Link>
-      <div className='w-fit flex items-center justify-between'>
+      <div className='w-fit hidden lg:flex items-center justify-between'>
         {
           items.map((item, index) => (
-            <Link href={item.path} key={index} className={`text-[18px] font-Archivo text-[#000000] font-[800] mx-[15px] hover:underline`}>{item.name}</Link>
+            <Link href={item.path} key={index} className={`text-[18px] font-Archivo text-[#000000] font-[600] mx-[15px] hover:underline`}>{item.name}</Link>
           ))
         }
         <Link href="#" className='text-[18px] font-Archivo font-[600] ml-[15.5px] flex items-center hover:underline'>

@@ -27,13 +27,13 @@ const items = [
 function Footer() {
 
   return (
-    <div className='w-full h-[160px] bg-black flex items-center justify-center'>
-      <div className='w-full h-[70px] flex flex-col justify-between  text-center'>
+    <div className='w-full h-full  md:h-[160px] bg-black flex items-center justify-center'>
+      <div className='w-full h-full  md:h-[70px] flex flex-col justify-between  text-center'>
       <div className='text-[16px] text-white '>Frontend Practice - © 2023</div>
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center justify-center flex-col md:flex-row pb-4 md:pb-0'>
       {
           items.map((item, index) => (
-            <Link href={item.path} key={index} className={`text-[16px] font-Archivo text-[#fff] font-[700] mx-[6.5px] hover:underline`}>{item.name}</Link>
+            <Link href={item.path} key={index} className={`md:text-[18px] text-[14px] font-Archivo text-[#fff] font-[700] mx-[6.5px] hover:underline`}>{item.name}</Link>
           ))
         }
         <Link href="#" className='text-[16px] font-Archivo font-[600] ml-[6.5px] flex text-[#fff]  items-center hover:underline'>

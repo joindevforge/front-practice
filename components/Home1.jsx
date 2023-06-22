@@ -12,11 +12,11 @@ function Home1() {
   return (
     <div className="w-full h-full">
       <div className="w-full flex flex-col items-center justify-center">
-        <p className="font-DM font-[400] text-center text-[60px] leading-[80px] pt-[140px] tracking-[-1.5%]">
+        <p className="font-DM font-[600] text-center text-[3.75rem] leading-[80px] pt-[140px] tracking-[-1.5%]">
           Supercharge your frontend <br />
           development skills
         </p>
-        <p className=" text center font-Archivo mt-[21px] text-[23px] tracking-[-1%]   w-[45%]">
+        <p className=" text center  font-Archivo mt-[21px] text-[23px] tracking-[-1%]   w-[45%]">
           Level up your frontend development skills by recreating real websites
           from real companies and get rewarded in crypto.
         </p>
@@ -27,11 +27,11 @@ function Home1() {
             Say goodbye to capstone projects..
           </p>
           <div className="h-[180px] w-[618px] flex flex-col justify-between ">
-            <p className="text-start text-[20px]  font-Archivo font-light leading-[32px]">
+            <p className="text-start text-[20px] font-[400]  font-Archivo  leading-[32px]">
               It&apos;s time to say goodbye to capstone projects holding back
               your true potential to try building new things in frontend.
             </p>
-            <p className="text-start text-[20px]  font-Archivo font-light leading-[32px]">
+            <p className="text-start text-[20px]  font-Archivo font-[400] leading-[32px]">
               Get access to unique frontend challenges and inspirations that
               help you take your skills to next level and become a better
               frontend developer.

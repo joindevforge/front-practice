@@ -31,7 +31,7 @@ function project() {
           </Link>
         </div>
         <div className="w-full h-[200px] border-y-2 mt-6 border-black">
-          <div className="grid grid-cols-4 h-full w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 h-full w-full">
             <div className="border-r-2 border-black">
               <p className="text-[25px] font-[700] font-DM text-center mt-5">
                 Recreate this to learn:
