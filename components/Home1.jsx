@@ -12,11 +12,11 @@ function Home1() {
   return (
     <div className="w-full h-full">
       <div className="w-full flex flex-col items-center justify-center">
-        <p className="font-DM font-[600] text-center text-[3.75rem] leading-[80px] pt-[140px] tracking-[-1.5%]">
+        <p className="font-DM font-[600] text-center text-[3.75rem] leading-[5rem] pt-[8.75rem] tracking-[-1.5%]">
           Supercharge your frontend <br />
           development skills
         </p>
-        <p className=" text center  font-Archivo mt-[21px] text-[23px] tracking-[-1%]   w-[45%]">
+        <p className=" text center  font-Archivo mt-[1.3rem] text-[1.5rem] tracking-[-1%]   w-[45%]">
           Level up your frontend development skills by recreating real websites
           from real companies and get rewarded in crypto.
         </p>
@@ -39,19 +39,19 @@ function Home1() {
           </div>
         </div>
       </div>
-      <div className="mt-[100px] w-full h-full flex items-center justify-center ">
-        <div className="h-[340px] w-[90%] flex  ">
-          <div className="flex-[35%]  flex items-center justify-center w-full h-full">
-            <p className="font-DM text-[42px]  leading-[55px] tracking-[-0.015%] w-[70%]">
+      <div className="mt-[6.25rem] w-full h-full flex items-center justify-center ">
+        <div className="h-[21.25rem] w-[90%] flex lg:flex-row  flex-col ">
+          <div className="lg:flex-[35%] flex-[100%] flex items-center justify-center w-full h-full">
+            <p className="font-DM text-[2.625rem]  leading-[3.375rem] tracking-[-0.015%] w-[80%]">
               {" "}
               Are any of these challenges familiar to you as a Frontend
               Developer?
             </p>
           </div>
-          <div className="flex-[65%] flex justify-center">
-            <div className="w-[90%] h-full border-2 bg-white flex items-center border-black">
-              <ul className="list-decimal py-[20px]  px-[60px]  text-[20px] font-Archivo font-light">
-                <li className="mb-4">
+          <div className="lg:flex-[65%] flex-[100%] flex justify-center">
+            <div className="w-[90%] h-fit  border-2 bg-white flex items-center border-black">
+              <ul className="list-decimal py-[1.25rem]  px-[3.75rem]  text-[1.25rem] font-Archivo ">
+                <li className="mb-4 pt-4">
                   {" "}
                   Don&apos;t have professional experience in fronted development
                 </li>
@@ -68,7 +68,7 @@ function Home1() {
                   Don&apos;t get answers from companies and faced multiple
                   rejections
                 </li>
-                <li>
+                <li className="pb-4">
                   Don&apos;t know how to stand out from the crowd of frontend
                   developers
                 </li>
@@ -77,29 +77,29 @@ function Home1() {
           </div>
         </div>
       </div>
-      <div className="w-full h-full text-center  flex justify-center">
-        <p className="w-[50%] pt-[80px] italic pb-[100px] font-Archivo  text-[24px] leading-[40px]">
+      <div className="w-full h-full text-center md:pt-[7rem] pt-[100px]  flex justify-center">
+        <p className="lg:w-[50%] w-[80%]  italic pb-[6.25rem] font-Archivo  text-[1.5rem] leading-[2.5rem]">
           If you&apos;ve got one of these problems it&apos;s time to fix the
           errors you&apos;re making and land the frontend role you always
           wanted.
         </p>
       </div>
-      <div className="border-2 bg-white border-black h-full w-full pb-[60px">
-        <p className="pt-[100px] font-Archivo text-[26px] text-center pb-[60px] font-[500] ">
+      <div className="border-2 bg-white border-black h-full w-full">
+        <p className="pt-[6.25rem] font-Archivo text-[1.5rem] text-center pb-[3.75rem] font-[500] ">
           Here are some ways you can benefit from using our platform:
         </p>
         <div className="w-full flex justify-center items-center">
-          <div className="container px-16  pb-[30px]">
-            <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="container pb-[2rem]">
+            <div className="grid grid-cols-1  lg:grid-cols-2">
               {benefits.map((benefit, index) => {
                 return (
                   <div
                     key={index}
                     className="flex justify-center items-center mb-16"
                   >
-                    <div className="w-[500px] h-[250px] border-2 border-black bg-white flex justify-center items-center">
-                      <div className="px-[35px]">
-                        <p className="text-start font-light font-Archivo text-[18px] leading-[28px]">
+                    <div className="w-[31.25rem] h-[15.625rem] border-2 border-black bg-white flex justify-center items-center">
+                      <div className="px-[2.25rem]">
+                        <p className="text-start font-light font-Archivo text-[1.125rem] leading-[1.75rem]">
                           {benefit}
                         </p>
                       </div>
@@ -112,12 +112,12 @@ function Home1() {
         </div>
       </div>
 
-      <h2 className="pt-[85px] font-DM text-[72px] pb-[112px] text-center text-[#645E56]">
+      <h2 className="pt-[5rem] font-DM text-[4.5rem] pb-[7rem] text-center text-[#645E56]">
         Get access to unique frontend challenges
       </h2>
       <div className=" w-full h-[540px] border-2 border-black bg-white flex items-center justify-center">
-        <div className="h-[60%] w-[45%]  flex justify-center flex-col">
-          <p className="text-[20px] text-center font-Archivo leading-9 ">
+        <div className="h-[60%] lg:w-[50%] w-[90%]  flex justify-center flex-col">
+          <p className="text-[1.25rem] text-center font-Archivo leading-9 ">
             Build something amazing that makes you stand out and showcase your
             skills by building inspirations that help you understand design,
             master new tools and methods alongside discovering the best
