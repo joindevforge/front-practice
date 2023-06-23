@@ -5,7 +5,7 @@ import { FcCompactCamera } from "react-icons/fc";
 function project() {
   return (
     <div className="w-full h-full flex justify-center bg-white">
-      <div className="sm:mx-[2.5rem] mx-0  w-full h-full  border-x-[2px] border-black">
+      <div className="sm:mx-[2.5rem] mx-0 lg:container  w-full h-full  border-x-[2px] border-black">
         <p className="md:text-center text-start px-5 sm:px-0 text-[3.25rem]  md:text-[6.5625rem] font-DM font-[700] mt-[70px] leading-[40px]  ">
           Figma Merch <br /> <span className="text-[25px]">Shop page</span>
         </p>
