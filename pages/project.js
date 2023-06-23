@@ -5,18 +5,19 @@ import { FcCompactCamera } from "react-icons/fc";
 function project() {
   return (
     <div className="w-full h-full flex justify-center bg-white">
-      <div className="mx-[120px] w-full h-full  border-x-[2px] border-black">
-        <p className="text-center text-[105px] font-DM font-[700] mt-[70px] leading-[40px]  ">
+      <div className="sm:mx-[2.5rem] mx-0  w-full h-full  border-x-[2px] border-black">
+        <p className="md:text-center text-start px-5 sm:px-0 text-[3.25rem]  md:text-[6.5625rem] font-DM font-[700] mt-[70px] leading-[40px]  ">
           Figma Merch <br /> <span className="text-[25px]">Shop page</span>
         </p>
-        <div className="w-full h-full flex justify-center mt-2">
-          <Link href="#">
+        <div className="w-full h-full flex justify-start sm:justify-center mt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-3 sm:w-[40%] w-fu">
+          <Link href="#" className="px-0">
             🌐{" "}
-            <span className="text-[16px] font-[600] font-Archivo underline hover:text-blue-700 ">
+            <span className="text-[16px]  font-[600] font-Archivo underline hover:text-blue-700 ">
               View Live
             </span>
           </Link>
-          <Link href="#" className="px-[24px]">
+          <Link href="#" className="">
             📷{" "}
             <span className="text-[16px] font-[600] font-Archivo underline hover:text-blue-700">
               Free Photo Assests
@@ -29,15 +30,16 @@ function project() {
               Open Source Icons
             </span>
           </Link>
+          </div>
         </div>
-        <div className="w-full h-[200px] border-y-2 mt-6 border-black">
+        <div className="w-full h-full border-y-2 mt-6 border-black">
           <div className="grid grid-cols-1 md:grid-cols-4 h-full w-full">
-            <div className="border-r-2 border-black">
-              <p className="text-[25px] font-[700] font-DM text-center mt-5">
+            <div className="sm:border-r-2 border-r-0  border-black">
+              <p className="text-[25px] font-[700] text-start px-5 md:px-0 font-DM md:text-center mt-5">
                 Recreate this to learn:
               </p>
-              <div className="flex justify-center mt-2">
-                <ul className="list-inside list-circle text-start font-Archivo text-[16px]">
+              <div className="flex md:justify-center justify-start px-7 md:px-0 mt-2">
+                <ul className="list-inside list-circle text-start font-Archivo text-[16px] pb-5 md:pb-5">
                   <li>Draggable slider</li>
                   <li>Hover effects</li>
                   <li>Content filtering</li>
@@ -45,44 +47,42 @@ function project() {
                 </ul>
               </div>
             </div>
-            <div className="border-r-2 border-black">
-              <p className="text-[25px] font-[700] font-DM text-center mt-5">
+            <div className="md:border-r-2 border-t-2 h-full md:border-t-0 border-black">
+              <p className="text-[25px] font-[700]  font-DM text-start px-5 md:px-0 md:text-center mt-5">
                 color Palette:
               </p>
-              <div className="w-full h-full flex flex-col items-center font-Archivo">
-                <div className="w-[85%] flex h-fit mt-6 ">
-                  <div className="w-[50%] flex font-[400] ">
+              <div className="w-full h-full flex justify-start font-Archivo">
+                <div className="grid grid-cols-3  sm:grid-cols-4 lg:grid-cols-2 flex-wrap h-full   pb-5 md:pb-0 md:h-[40%] sm:w-[60%] w-[100%] lg:w-full ml-3 mt-2 lg:mt-4">
+                  <div className="w-fit flex">
                     <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#ffc700] mr-1"></div>
                     #ffc700
                   </div>
-                  <div className="w-[50%] flex font-[400] ">
-                    <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#10a958] mr-1"></div>
+                  <div className="w-fit flex">
+                  <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#10a958] mr-1"></div>
                     #10a958
                   </div>
-                </div>
-                <div className="w-[85%] flex h-fit mt-4 ">
-                  <div className="w-[50%] flex font-[400] ">
-                    <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#000000] mr-1"></div>
+                  <div className="w-fit flex">
+                  <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#000000] mr-1"></div>
                     #000000
                   </div>
-                  <div className="w-[50%] flex font-[400] ">
-                    <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#fff] mr-1"></div>
+                  <div className="w-fit flex">
+                  <div className="w-[25px] h-[25px] rounded-[50%] border-[1px] border-gray-500 bg-[#fff] mr-1"></div>
                     #fff
                   </div>
                 </div>
               </div>
             </div>
-            <div className="border-r-2 border-black">
-              <p className="text-[25px] font-[700] font-DM text-center mt-5">
+            <div className="sm:border-r-2 border-r-0 border-t-2 md:border-t-0 border-black mt-5 sm:mt-0">
+              <p className="text-[25px] font-[700] font-DM text-start px-5  md:text-center mt-5">
                 Recommended Course:
               </p>
-              <p className="text-[16px] font-Archivo font-[600] px-8 mt-3">
+              <p className="text-[16px] font-Archivo font-[600] px-8 mt-3 w-[90%] sm:w-full">
                 Frontend Masters offers a 100% free{" "}
                 <Link href="#" className="underline hover:text-blue-500">
-                &ldquo;Complete Intro to Web Development&ldquo; course.
+                  &ldquo;Complete Intro to Web Development&ldquo; course.
                 </Link>
               </p>
-              <div className="w-full flex justify-center mt-2">
+              <div className="w-full flex pb-4 justify-start px-4 sm:px-0 sm:justify-center mt-2">
                 <Link
                   href="#"
                   className="font-[400] font-Archivo p-[1px] px-[6px] border-2 border-black"
@@ -91,24 +91,32 @@ function project() {
                 </Link>
               </div>
             </div>
-            <div className="">
-              <p className="text-[25px] font-[700] font-DM text-center mt-5">
+            <div className="border-t-2 border-black md:border-t-0 pb-10">
+              <p className="text-[25px] font-[700] font-DM text-start px-5 md:px-0 md:text-center mt-5">
                 Resources:
               </p>
               <p className="text-[16px] font-Archivo font-[600] px-8 mt-3 underline">
-                <Link href="#" className="hover:text-blue-700"> Change image on hover</Link>
+                <Link href="#" className="hover:text-blue-700">
+                  {" "}
+                  Change image on hover
+                </Link>
                 <br />
-                <Link href="#" className="hover:text-blue-700">How to Create a Draggable Slider</Link> 
+                <Link href="#" className="hover:text-blue-700">
+                  How to Create a Draggable Slider
+                </Link>
                 <br />
-                <Link href="#" className="hover:text-blue-700">A Complete Guide to Flexbox</Link>
+                <Link href="#" className="hover:text-blue-700">
+                  A Complete Guide to Flexbox
+                </Link>
               </p>
             </div>
           </div>
         </div>
-        <div className="w-full h-[250px] border-b-2 border-black flex items-center justify-center">
-          <div className="w-[79%]  h-[60%] flex justify-between">
-            <div className="w-[350px] h-full bg-[#000000] flex  justify-center">
-              <div className="w-[85%]">
+        <div className="w-full h-full border-b-2 border-black flex items-center justify-center">
+          <div className="w-[90%]">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-10 justify-center items-center m-4 mt-8 h-full  ">
+            <div className="sm:w-[350px] w-full my-4  h-full bg-[#000000] flex  justify-center">
+              <div className="w-[85%] ">
                 <p className="text-[30px] font-DM font-[700] text-white  text-start mt-4 ">
                   Up for a challenge
                 </p>
@@ -117,7 +125,7 @@ function project() {
                 </p>
               </div>
             </div>
-            <div className="w-[350px] h-full bg-[#494949] flex justify-center ">
+            <div className="sm:w-[350px] w-full h-full my-4  bg-[#494949] flex justify-center ">
               <div className="w-[85%]">
                 <p className="text-[30px] font-DM font-[700] text-white  text-start mt-4 ">
                   Too easy?
@@ -127,7 +135,7 @@ function project() {
                 </p>
               </div>
             </div>
-            <div className="w-[200px] h-full border-2 border-black flex justify-center">
+            <div className="sm:w-[200px] w-full h-full my-4  border-2 border-black flex justify-center">
               <div className="w-[80%]">
                 <p className="text-[30px] font-DM font-[700] text-black  text-start mt-4 ">
                   Too hard?
@@ -141,6 +149,7 @@ function project() {
                 </p>
               </div>
             </div>
+          </div>
           </div>
         </div>
         <div className="pb-6">
