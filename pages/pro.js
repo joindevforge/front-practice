@@ -6,11 +6,11 @@ function pro() {
       <div className="w-full h-full">
         <div className="h-[39.625rem]  w-full flex items-center justify-center">
           <div className="md:w-[60%] w-[95%] flex items-center flex-col">
-            <p className="text-[3.69rem] font-[400] text-center  font-DM leading-[5.175rem]">
+            <p className="text-[3.69rem] font-[600] text-center  font-DM leading-[5.175rem]">
               Become a Pro Developer
               <br /> with Fe50 pro subscription
             </p>
-            <p className="text-[1.375rem] text-center   mt-[1.775rem] w-[95%] md:w-[80%] font-[300] leading-[2.45rem]  font-Archivo">
+            <p className="text-[1.375rem] text-center   mt-[1.775rem] w-[95%] md:w-[710px] font-[400] leading-[2.45rem]  font-Archivo">
               With a pro subscription, you can get exclusive access to unique{" "}
               frontend challenges upon completion of which you can earn crypto
               rewards, discover internship opportunities and more..
@@ -19,10 +19,10 @@ function pro() {
         </div>
         <div className="h-[38.375rem] w-full bg-white border-y-2 flex items-center justify-center border-black">
           <div className="w-[80%] sm:h-[75%] h-full pt-10 sm:pt-0 flex items-center  flex-col ">
-            <p className="md:m-[1rem] m-0 text-[2.25rem] text-center font-[400] font-DM">
+            <p className="md:m-[1rem] m-0 text-[2.25rem] text-center font-[600] font-DM">
               Here&apos;s what our Pro Subscribers have to say
             </p>
-            <p className="mt-[1.10rem] w-[90%] text-[#000000] font-Archivo italic text-center  font-bold text-[1.5rem] leading-[2.65rem]">
+            <p className="mt-[1.10rem] w-[90%] text-[#000000] font-Archivo text-center  font-[400] text-[1.5rem] leading-[2.65rem]">
               &ldquo;One of the best advantages pro subscription has to offer
               you is the code review upon completing the challenge and it helped
               me gain insights on better frontend practices&ldquo;
@@ -31,11 +31,11 @@ function pro() {
               <div className=" w-[75px] h-[75px] flex items-center justify-center text-[3rem] italic font-DM  font-[400] bg-[#FAEAD7] rounded-[50%]">
                 <span className="opacity-20">S</span>
               </div>
-              <p className="text-[1.375rem] mt-[1rem] font-Archivo font-[400]">
+              <p className="text-[1.375rem] mt-[1rem] font-DM font-[400]">
                 {" "}
                 Surya
               </p>
-              <p className="font-Archivo font-[400] text-[1rem]">
+              <p className="font-Archivo font-[400] text-[1.125rem]">
                 Student from JNTUH
               </p>
             </div>
@@ -43,7 +43,7 @@ function pro() {
           </div>
         </div>
         <div className="">
-          <p className="py-[4.65rem] font-DM font-[400] text-[2.25rem] text-center ">
+          <p className="py-[4.65rem] font-DM font-[600] text-[2.25rem] text-center ">
             Level up with Pro
           </p>
           <div className="w-full h-full flex justify-center">
@@ -51,7 +51,7 @@ function pro() {
               <div className=" lg:h-[18.75rem] h-full lg:w-[62.5rem] w-full border-2 flex lg:flex-row flex-col   border-black bg-white">
                 <div className="md:flex-[60%] flex-[100%] border-r-2 flex justify-center border-black">
                   <div className="  w-[80%]">
-                    <p className="font-DM font-[400] mt-[3rem] text-[1.75rem]">
+                    <p className="font-DM font-[600] mt-[3rem] text-[1.75rem]">
                       Explorer
                     </p>
                     <div className="mt-[1.80rem] font-Archivo text-[1.25rem] leading-10 ">
@@ -76,11 +76,11 @@ function pro() {
               <div className="mt-[5rem] h-full lg:w-[62.5rem] w-full border-2 flex lg:flex-row flex-col   border-black bg-white">
                 <div className="md:flex-[60%] flex-[100%] border-r-2 flex justify-center border-black">
                   <div className="  w-[90%]">
-                    <p className="font-DM font-[400] ml-4 mt-[3rem] text-[1.75rem]">
+                    <p className="font-DM font-[600] ml-4 mt-[3rem] text-[1.75rem]">
                       Pro
                     </p>
                     <div className="mt-[1.80rem] font-Archivo text-[1.25rem]  ">
-                      <div className="w-full flex ">
+                      <div className="w-full flex  ">
                         <p>
                           <svg
                             width="22"
@@ -88,7 +88,7 @@ function pro() {
                             viewBox="0 0 22 16"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="mt-2 mr-2"
+                            className="mt-3 mr-2"
                           >
                             <path
                               d="M7.8125 15.3125L0.8125 8.3125L2.15625 6.96875L7.8125 12.625L19.8125 0.625L21.1562 1.96875L7.8125 15.3125Z"
@@ -110,7 +110,7 @@ function pro() {
                             viewBox="0 0 22 16"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="mt-2 mr-2"
+                            className="mt-3 mr-2"
                           >
                             <path
                               d="M7.8125 15.3125L0.8125 8.3125L2.15625 6.96875L7.8125 12.625L19.8125 0.625L21.1562 1.96875L7.8125 15.3125Z"
@@ -132,7 +132,7 @@ function pro() {
                             viewBox="0 0 22 16"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="mt-2 mr-2"
+                            className="mt-3 mr-2"
                           >
                             <path
                               d="M7.8125 15.3125L0.8125 8.3125L2.15625 6.96875L7.8125 12.625L19.8125 0.625L21.1562 1.96875L7.8125 15.3125Z"
@@ -155,7 +155,7 @@ function pro() {
                             viewBox="0 0 22 16"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="mt-2 mr-2"
+                            className="mt-3 mr-2"
                           >
                             <path
                               d="M7.8125 15.3125L0.8125 8.3125L2.15625 6.96875L7.8125 12.625L19.8125 0.625L21.1562 1.96875L7.8125 15.3125Z"
@@ -178,7 +178,7 @@ function pro() {
                             viewBox="0 0 22 16"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="mt-2 mr-2"
+                            className="mt-3 mr-2"
                           >
                             <path
                               d="M7.8125 15.3125L0.8125 8.3125L2.15625 6.96875L7.8125 12.625L19.8125 0.625L21.1562 1.96875L7.8125 15.3125Z"
@@ -204,9 +204,9 @@ function pro() {
                       per month
                     </span>
                   </div>
-                  <p className="mt-10 text-center pb-10 sm:pb-0 italic text-[1.125rem] w-[80%]">
+                  <p className="mt-10 text-center leading-[1.75] font-Archivo pb-10 sm:pb-0 font-[600] italic text-[1.125rem] w-[80%]">
                     PRO Subscribers receive 2 months free subscription upon
-                    selectinh anual plans
+                    selection of annual plans
                   </p>
                     </div>
                 </div>

@@ -24,18 +24,20 @@ function about() {
     <>
       <div className="w-full h-full bg-white">
         <div className="w-full h-full">
-          <p className="pt-[8.625rem] text-[2.5rem] font-DM  font-[400] text-center">
+          <p className="pt-[8.625rem]   text-[2.5rem] font-DM  font-[600] text-center">
             Common challenges front-end web developers face include:
           </p>
-          <div className="pt-[4rem] w-full h-full flex justify-center">
+          <div className="pt-[4rem] pb-[50px] w-full h-full flex justify-center">
             <div className="max-w-[1280px] w-full lg:w-[1280px] flex justify-center flex-col items-center">
               <div className="grid lg:grid-cols-2 grid-cols-1 w-fit h-fit   lg:w-[90%] justify-center items-center">
                 {data.map((item, index) => (
+                 <>
+                  <div className=" flex items-center justify-center">
                   <div
                     key={index}
                     className="w-[31.25rem] max-w-[31.25rem] h-[12.5rem] border-2 border-black  max-h-[12.5rem] mb-[4.375rem]"
                   >
-                    <p className="text-[1.5rem] font-[400] bg-[#FAEAD7] font-DM  py-2 text-center">
+                    <p className="text-[1.5rem] font-[600] bg-[#FAEAD7] font-DM  py-2 text-center">
                       {item.title}
                     </p>
                     <div className="w-full h-[70%]  border-t-2 border-black flex items-center  justify-center">
@@ -44,14 +46,16 @@ function about() {
                       </p>
                     </div>
                   </div>
+                  </div>
+                 </>
                 ))}
               </div>
-              <div className="w-[31.25rem] max-w-[31.25rem] h-[12.5rem] border-2 border-black  max-h-[12.5rem] mb-[4.375rem]">
-                <p className="text-[1.5rem] font-[400] bg-[#FAEAD7] font-DM  py-2 text-center">
+              <div className="w-[31.25rem] max-w-[31.25rem]   h-[12.5rem] border-2 border-black  max-h-[12.5rem] mb-[4.375rem]">
+                <p className="text-[1.5rem] font-[600] bg-[#FAEAD7] font-DM  py-2 text-center">
                   Keeping up with advancements
                 </p>
-                <div className="w-full h-[70%]  border-t-2 border-black flex items-center  justify-center">
-                  <p className="text-[1.125rem] text-center font-[400] px-10 leading-[2rem]  font-Archivo">
+                <div className="w-full   border-t-2 border-black flex items-center  justify-center">
+                  <p className="text-[1.125rem] text-center py-[20px] font-[400] px-10 leading-[2rem]  font-Archivo">
                     The field of web development is constantly evolving, and
                     developers need to continuously learn and adapt to new
                     technologies and trends
@@ -63,8 +67,8 @@ function about() {
         </div>
       </div>
       {/* section 2 */}
-      <div className="w-full h-full flex  justify-center">
-        <p className="py-[7.125rem] text-center w-[80%] md:w-[70%] lg:w-[48%] text-[1.25rem] leading-[2.5rem]">
+      <div className="w-full h-full flex border-y-2 border-black  justify-center">
+        <p className="py-[110px] min-w-[700px] text-center w-[80%] md:w-[70%] lg:w-[48%] text-[1.25rem] font-Archivo leading-9">
           We aim to build a platform for frontend developers where they can
           overcome these challenges and build a successful career by working on
           unique frontend challenges and real website inspirations to create an
@@ -72,10 +76,10 @@ function about() {
         </p>
       </div>
       {/* section 3  */}
-      <div className="w-full h-full bg-white py-[8.75rem]">
+      <div className="w-full h-full bg-white pt-[100px] pb-[110px]">
         <div className=" relative w-full h-full flex justify-center">
-          <div className="lg:w-[60%] md:w-[70%] w-[85%] ">
-            <p className="text-[2rem] leading-[4rem] font-Archivo text-center">
+          <div className=" lg:w-full lg:max-w-[722px] md:w-[70%] w-[85%] ">
+            <p className="text-[2rem] leading-[3.5rem] font-[600] font-DM text-center">
               Matching frontend devs with portfolio inspirations and frontend
               challenges to level up in their career
             </p>
@@ -97,17 +101,20 @@ function about() {
           </svg>
         </div>
         <div className="w-full h-full flex justify-center">
-            <div className="lg:w-[52%] md:w-[62%] w-[75%]   mt-[2.8125rem] ">
-            <p className="text-[1.25rem] font-[400] leading-[2.3rem] ">Pick something that makes you excited to code and get on with building it. Use
-whatever tools and programming languages you prefer. Choose whether you want it
-to be your portfolio or let companies review your code and rate your development
-practices by contributing to Project Source.
-</p>
-<p className="text-[1.25rem] font-[400] leading-[2.3rem] mt-10">
-Discover what to learn, understand design, and what skills are essential to
-grow as a developer. Master the tools & methods, and become confident in both
-small & large-scale projects.</p>
-            </div>
+          <div className="lg:w-[722px] md:w-[62%] w-[75%]   mt-[32px] ">
+            <p className="text-[1.25rem] font-Archivo leading-9 ">
+              Pick something that makes you excited to code and get on with
+              building it. Use whatever tools and programming languages you
+              prefer. Choose whether you want it to be your portfolio or let
+              companies review your code and rate your development practices by
+              contributing to Project Source.
+            </p>
+            <p className="text-[1.25rem] font-Archivo leading-9 mt-[36px]">
+              Discover what to learn, understand design, and what skills are
+              essential to grow as a developer. Master the tools & methods, and
+              become confident in both small & large-scale projects.
+            </p>
+          </div>
         </div>
       </div>
     </>
