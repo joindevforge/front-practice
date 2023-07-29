@@ -14,3 +14,12 @@ body{
     background-color: #F5C6AA;
     color: #F5C6AA;
 }
+
+
+    .list-disc::before {
+        content: url("/svgviewer-output.svg");
+        left: 10px;
+        top: 5px;
+        height: 4px;
+        width: 4px;
+      }
