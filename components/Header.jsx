@@ -104,7 +104,7 @@ function Header() {
                                 <Link
                                     key={index}
                                     href={item. path}
-                                    className="py-6 px-6  text-base font-[400] border-t-[1px] border-gray-500 last:border-b-[1px]  transition-all duration-200 ease-in-out hover:bg-slate-100 hover:py-4   hover:rounded"
+                                    className="py-5 px-6 font-Archivo  text-[20px] text-center font-[600] border-t-[1px] border-gray-500 last:border-b-[1px]  transition-all duration-200 ease-in-out hover:bg-slate-100 hover:py-4   hover:rounded"
                                     onClick={() => {setIsopen(!isopen);}}>
                                     {item.name}
                                 </Link>

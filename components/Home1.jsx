@@ -26,7 +26,7 @@ function Home1() {
       </div>
       <div className=" bg-white border-y-2 pb-[6.75rem]  border-black flex items-center flex-col justify-center">
         {/* <div className="h-[272px] w-full flex justify-between items-center flex-col "> */}
-        <p className="text-center font-DM font-[600] pl-[20px] md:pl-0 bg-white md:pt-[6.75rem] pt-[100px] tracking-[-1%] leading-[50px]  text-4xl">
+        <p className="text-center font-DM font-[600] px-[20px] md:pl-0 bg-white md:pt-[6.75rem] pt-[100px] tracking-[-1%] leading-[50px]  text-4xl">
           Say goodbye to capstone projects..
         </p>
         <div className=" mt-[2.625rem] items-center flex flex-col justify-between ">
@@ -61,8 +61,8 @@ function Home1() {
               </p>
             </div>
           </div>
-          <div className=" md:max-w-[712px]  mx-[20px] md:w-full flex items-center justify-center  flex-[100%] h-full bg-white border-2 border-black">
-            <div className="md:max-w-[712px]  flex items-center h-full justify-center">
+          <div className=" md:max-w-[650px]  mx-[20px] md:w-full flex items-center justify-center  flex-[100%] h-full bg-white border-2 border-black">
+            <div className="md:max-w-[650px]  flex items-center h-full justify-center">
               <ul className="list-decimal  text-[1.125rem] font-Archivo font-[400] py-[20px]  px-[20px] ml-4   md:py-[2.5rem]">
                 <li className="mb-4 pt-4">
                   {" "}
