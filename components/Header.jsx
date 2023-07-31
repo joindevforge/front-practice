@@ -11,7 +11,7 @@ const items = [
   },
   {
     name: "Projects",
-    path: "/project",
+    path: "/projects",
   },
   {
     name: "About",
@@ -25,6 +25,10 @@ const items = [
     name: "Contact",
     path: "/contact",
   },
+  {
+    name:"Scolar Program",
+    path:"/scholar"
+  }
 ];
 
 function Header() {
@@ -50,13 +54,6 @@ function Header() {
               {item.name}
             </Link>
           ))}
-          <Link
-            href="#"
-            className="text-[18px] font-Archivo font-[600] ml-[15.5px] flex items-center hover:underline"
-          >
-            NewsLetter
-            <BsArrowUpRight className="font-bold ml-1" />
-          </Link>
         </div>
         <div className="  text-black  block md:hidden">
           <button
