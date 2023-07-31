@@ -145,7 +145,7 @@ function projects() {
                 <Link
                 href={item.link}
                   key={index}
-                  className="h-[300px]  border-2 border-black m-[18px] sm:w-[380px] w-full bg-white"
+                  className="h-[300px]  border-2 border-black m-[18px]  sm:w-[380px] w-full bg-white"
                 >
                   <div className=" w-full h-[82%] bg-contain">
                     <img

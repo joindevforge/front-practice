@@ -1,3 +1,4 @@
+import Carosuel from "@/components/Carosuel";
 import React from "react";
 
 function pro() {
@@ -21,30 +22,8 @@ function pro() {
             </p>
           </div>
         </div>
-        <div className=" h-full w-full md:pt-[100px] pt-[50px] bg-white border-y-2 flex items-center justify-center border-black">
-          <div className="w-[80%] h-full  pb-10  sm:pt-0 flex items-center  flex-col ">
-            <p className="md:m-[1rem] m-0 md:text-[2.25rem] text-[1.8rem] text-center font-[600] font-DM">
-              Here&apos;s what our Pro Subscribers have to say 
-            </p>
-            <p className="mt-[36px] w-full text-[#000000] font-Archivo text-center  font-[400] text-[22px] leading-[1.7] md:text-[1.5rem] md:leading-[2.65rem]">
-              &ldquo;One of the best advantages pro subscription has to offer
-              you is the code review upon completing the challenge and it helped
-              me gain insights on better frontend practices&ldquo;
-            </p>
-            <div className="text-center lg:mt-[4.125rem] mt-[2.0rem] pb-10  flex items-center flex-col">
-              <div className=" w-[75px] h-[75px] flex items-center justify-center text-[3rem] italic font-DM  font-[400] bg-[#FAEAD7] rounded-[50%]">
-                <span className="opacity-20">S</span>
-              </div>
-              <p className="text-[1.375rem] mt-[1rem] font-DM font-[400]">
-                {" "}
-                Surya
-              </p>
-              <p className="font-Archivo font-[400] text-[1.125rem]">
-                Student from JNTUH
-              </p>
-            </div>
-            <div className="mt-[1rem] w-[10px] rounded-[50%] h-[10px] border-[1px] border-gray-400"></div>
-          </div>
+        <div className=" h-full w-full py-0  bg-white border-y-2 flex items-center justify-center border-black">
+          <Carosuel/>
         </div>
         <div className="">
           <p className="py-[4.65rem] font-DM font-[600] text-[2.25rem] text-center ">
