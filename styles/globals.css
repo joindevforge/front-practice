@@ -2,24 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-    background-color: #FAEAD7;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  background-color: #faead7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.active{
-    background-color: #F5C6AA;
-    color: #F5C6AA;
+.active {
+  background-color: #f5c6aa;
+  color: #f5c6aa;
 }
 
+.list-disc::before {
+  content: url('/svgviewer-output.svg');
+  left: 10px;
+  top: 5px;
+  height: 4px;
+  width: 4px;
+}
 
-    .list-disc::before {
-        content: url("/svgviewer-output.svg");
-        left: 10px;
-        top: 5px;
-        height: 4px;
-        width: 4px;
-      }
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  animation: fadeInUp 0.8s forwards;
+  animation-delay: 0.3s;
+}
+
+.fade-initial {
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
