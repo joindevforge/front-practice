@@ -60,10 +60,10 @@ function Home1() {
       </div>
       <div className="md:py-[6.25rem] max-w-[1280px] mx-auto py-10 w-full min-h-[75vh] flex  items-center flex-col ">
         <div className="h-[80%]  w-full flex lg:flex-row justify-center  flex-col items-center">
-          <div className="  max-w-[398px] flex-[100%]  h-full flex   justify-center items-center ">
+          <div className=" max-w-[700px] mb-4 lg:mb-0 lg:max-w-[398px] flex-[100%]  h-full flex   justify-center items-center ">
             <div className="flex justify-center">
               <FadeInOnScroll>
-                <p className="font-DM px-[30px] w-fit  whitespace-pre-line md:text-[2rem] text-[2rem] font-[600] text-left md:text-start leading-[3rem] md:leading-[3.5rem] tracking-[-0.005em]    pb-10 md:pb-0">
+                <p className="font-DM  px-[30px] w-fit  whitespace-pre-line md:text-[2rem] text-[2rem] font-[600] text-left md:text-start leading-[3rem] md:leading-[3.5rem] tracking-[-0.005em]    pb-10 md:pb-0">
                   Are any of these challenges familiar to you as a Frontend
                   Developer?
                 </p>
@@ -107,7 +107,7 @@ function Home1() {
             </div>
           </div>
         </div>
-        <div className="md:mt-[5rem] mt-[40px]  lg:w-[55%] md:[65%] px-[20px] w-[100%] italic font-[600] font-Archivo leading-[2.65rem] text-[22px] md:text-[1.5rem]">
+        <div className="md:mt-[5rem] mt-[40px]  lg:w-[55%] sm:[65%] px-[20px] w-[100%] italic font-[600] font-Archivo leading-[2.65rem] text-[22px] md:text-[1.5rem]">
           <FadeInOnScroll>
             <span>
               If you&apos;ve got one of these problems it&apos;s time to fix the
