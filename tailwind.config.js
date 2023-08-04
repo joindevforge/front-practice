@@ -7,15 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-     fontFamily:{
-      'Archivo':['Archivo', 'sans-serif'],
-      'DM':['DM Serif Display', 'serif'],
-      'Hanken':['Hanken Grotesk', 'sans-serif']
-     },
-     listStyleType: {
-        'circle':'circle'
-     }
+      fontFamily: {
+        Archivo: ['Archivo', 'sans-serif'],
+        DM: ['DM Serif Display', 'serif'],
+        Hanken: ['Hanken Grotesk', 'sans-serif'],
+      },
+      listStyleType: {
+        circle: 'circle',
+      },
+      transitionTimingFunction: {
+        normal: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+      },
     },
   },
   plugins: [],
-}
+};
