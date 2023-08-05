@@ -13,20 +13,23 @@ function Home1() {
   ];
   return (
     <div className="w-full max-w-[1024px] md:max-w-full mx-auto h-full">
-      <FadeInOnScroll>
-        <div className="w-full ">
+      <div className="w-full ">
+        <FadeInOnScroll>
           <p className="font-DM font-[600] md:text-center text-left px-[1.875rem] md:text-[3.75rem] text-[2.25rem] leading-normal md:leading-[5rem] md:pt-[8.75rem] pt-[7.5rem] tracking-[-1.5%]">
             Supercharge your frontend <br />
             development skills
           </p>
-          <div className="w-full h-full flex justify-center">
+        </FadeInOnScroll>
+        <div className="w-full h-full flex justify-center">
+          <FadeInOnScroll delay={200}>
             <p className="  md:text-center text-left px-[1.875rem] max-w-[1280px] mx-auto md:leading-[1.75] leading-[1.75]   font-Archivo mt-[1.25rem] text-[1.5rem] tracking-[-0.005em] pb-[8.75rem] lg:w-[740px] md:w-[640px] w-[100%] ">
               Level up your frontend development skills by recreating real
               websites from real companies and get rewarded in crypto.
             </p>
-          </div>
+          </FadeInOnScroll>
         </div>
-      </FadeInOnScroll>
+      </div>
+
       <div className=" bg-white border-y-2 pb-[6.75rem]  border-black flex items-center flex-col justify-center">
         <FadeInOnScroll>
           <p className="text-center font-DM font-[600] px-[20px] md:pl-0 bg-white md:pt-[6.75rem] pt-[100px] tracking-[-1%] leading-[50px]  text-4xl">
@@ -35,14 +38,14 @@ function Home1() {
         </FadeInOnScroll>
         <div className=" mt-[2.625rem] items-center flex flex-col justify-between ">
           <div className="lg:w-[720px] md:w-[60%] w-[80%]">
-            <FadeInOnScroll>
+            <FadeInOnScroll delay={100}>
               <p className="text-[1.25rem]  font-[400] text-left font-Archivo leading-9">
                 From responsive design to cross-browser compatibility, frontend
                 developers face a myriad of challenges in their quest to create
                 visually appealing and user-friendly websites and applications.
               </p>
             </FadeInOnScroll>
-            <FadeInOnScroll>
+            <FadeInOnScroll delay={100}>
               <p className="text-start text-[1.25rem] mt-[2.5rem]    font-Archivo font-[400] leading-[2.5rem]">
                 <span className="text-start text-[1.25rem] font-[400]    font-Archivo  leading-[2.5rem]">
                   It&apos;s time to say goodbye to capstone projects holding
@@ -79,25 +82,25 @@ function Home1() {
                     development
                   </li>
                 </FadeInOnScroll>
-                <FadeInOnScroll>
+                <FadeInOnScroll delay={100}>
                   <li className="mb-4">
                     Don&apos;t have and are not sure how to make an impressive
                     portfolio
                   </li>
                 </FadeInOnScroll>
-                <FadeInOnScroll>
+                <FadeInOnScroll delay={200}>
                   <li className="mb-4">
                     Not sure what projects to build that can be mentioned on
                     resume
                   </li>
                 </FadeInOnScroll>
-                <FadeInOnScroll>
+                <FadeInOnScroll delay={300}>
                   <li className="mb-4">
                     Don&apos;t get answers from companies and faced multiple
                     rejections
                   </li>
                 </FadeInOnScroll>
-                <FadeInOnScroll>
+                <FadeInOnScroll delay={400}>
                   <li className="pb-4">
                     Don&apos;t know how to stand out from the crowd of frontend
                     developers
@@ -131,7 +134,7 @@ function Home1() {
             <div className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 ">
               {benefits.map((benefit, index) => {
                 return (
-                  <FadeInOnScroll key={index}>
+                  <FadeInOnScroll key={index} delay={100}>
                     <div className="flex justify-center items-center mx-[20px] ">
                       <div className="w-[31.25rem] max-w-[31.25rem] h-fit md:min-h-[15.625rem] border-2 border-black bg-white flex justify-center items-center">
                         <div className="px-[30px] py-[25px]">

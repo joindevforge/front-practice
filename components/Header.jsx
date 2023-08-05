@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { BsArrowUpRight } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
@@ -41,15 +40,17 @@ function Header() {
     <>
       <div className="w-full h-[63px] top-0  fixed z-50 bg-white flex  justify-center border-b-2 border-black">
         <div className="w-[83%] h-full   flex justify-between items-center">
-          <Link href="/" className="text-[30px] font-DM">
+          <Link
+            href="/"
+            className="text-[30px] font-DM active:scale-95 transition-transform duration-200 ease-in-out">
             Frontend Practice
           </Link>
-          <div className="w-fit hidden lg:flex items-center justify-between">
+          <div className="w-fit hidden lg:flex items-center  justify-between">
             {items.map((item, index) => (
               <Link
                 href={item.path}
                 key={index}
-                className={`text-[18px] font-Archivo text-[#000000] font-[600] mx-[15px] hover:underline`}>
+                className={`text-[18px] font-Archivo desktop-main-menu text-[#000000] font-[600] mx-[15px] `}>
                 {item.name}
               </Link>
             ))}
