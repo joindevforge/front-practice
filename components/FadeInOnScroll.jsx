@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-const FadeInOnScroll = ({ children }) => {
+const FadeInOnScroll = ({ children, delay = 0 }) => {
   const elementRef = useRef(null);
 
   useEffect(() => {
@@ -8,7 +8,9 @@ const FadeInOnScroll = ({ children }) => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
+            setTimeout(() => {
+              entry.target.classList.add('fade-in');
+            }, delay);
             observer.unobserve(entry.target);
           }
         });
@@ -25,7 +27,7 @@ const FadeInOnScroll = ({ children }) => {
         observer.unobserve(elementRef.current);
       }
     };
-  }, []);
+  }, [delay]);
 
   return (
     <div className="fade-initial" ref={elementRef}>
